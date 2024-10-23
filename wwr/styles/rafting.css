@@ -210,6 +210,14 @@ footer p {
 
 /*Contact Page CSS Stuff*/
 
+section h1 {
+    color: var(--font-color); 
+}
+section p {
+    color: var(--font-color);
+}
+
+
 .employees .employee-info {
     display: flex;
     flex-direction: column;
@@ -232,9 +240,13 @@ footer p {
     margin: auto; 
     padding: 20px;
     border-radius: 8px; 
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color2);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 80px;
+    color: var(--font-color2);
+}
+.form h1 {
+    color: var(--font-color2); 
 }
 
 
